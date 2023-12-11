@@ -130,6 +130,7 @@
             this.iconButton = new System.Windows.Forms.Button();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -137,7 +138,7 @@
             // 
             this.button_home.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_home.Location = new System.Drawing.Point(531, 7);
-            this.button_home.Margin = new System.Windows.Forms.Padding(2);
+            this.button_home.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button_home.Name = "button_home";
             this.button_home.Size = new System.Drawing.Size(56, 25);
             this.button_home.TabIndex = 3;
@@ -148,7 +149,7 @@
             // firstValue
             // 
             this.firstValue.Location = new System.Drawing.Point(20, 116);
-            this.firstValue.Margin = new System.Windows.Forms.Padding(2);
+            this.firstValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.firstValue.Name = "firstValue";
             this.firstValue.Size = new System.Drawing.Size(60, 20);
             this.firstValue.TabIndex = 4;
@@ -157,7 +158,7 @@
             // userAnswer2
             // 
             this.userAnswer2.Location = new System.Drawing.Point(125, 138);
-            this.userAnswer2.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer2.Name = "userAnswer2";
             this.userAnswer2.Size = new System.Drawing.Size(180, 20);
             this.userAnswer2.TabIndex = 5;
@@ -165,7 +166,7 @@
             // fourthValue
             // 
             this.fourthValue.Location = new System.Drawing.Point(20, 183);
-            this.fourthValue.Margin = new System.Windows.Forms.Padding(2);
+            this.fourthValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.fourthValue.Name = "fourthValue";
             this.fourthValue.Size = new System.Drawing.Size(60, 20);
             this.fourthValue.TabIndex = 6;
@@ -173,7 +174,7 @@
             // secondValue
             // 
             this.secondValue.Location = new System.Drawing.Point(20, 138);
-            this.secondValue.Margin = new System.Windows.Forms.Padding(2);
+            this.secondValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.secondValue.Name = "secondValue";
             this.secondValue.Size = new System.Drawing.Size(60, 20);
             this.secondValue.TabIndex = 8;
@@ -181,7 +182,7 @@
             // fourthAnswer
             // 
             this.fourthAnswer.Location = new System.Drawing.Point(467, 183);
-            this.fourthAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.fourthAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.fourthAnswer.Name = "fourthAnswer";
             this.fourthAnswer.Size = new System.Drawing.Size(180, 20);
             this.fourthAnswer.TabIndex = 9;
@@ -189,7 +190,7 @@
             // thirdAnswer
             // 
             this.thirdAnswer.Location = new System.Drawing.Point(467, 160);
-            this.thirdAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.thirdAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.thirdAnswer.Name = "thirdAnswer";
             this.thirdAnswer.Size = new System.Drawing.Size(180, 20);
             this.thirdAnswer.TabIndex = 11;
@@ -197,7 +198,7 @@
             // secondAnswer
             // 
             this.secondAnswer.Location = new System.Drawing.Point(467, 137);
-            this.secondAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.secondAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.secondAnswer.Name = "secondAnswer";
             this.secondAnswer.Size = new System.Drawing.Size(180, 20);
             this.secondAnswer.TabIndex = 12;
@@ -205,7 +206,7 @@
             // firstAnswer
             // 
             this.firstAnswer.Location = new System.Drawing.Point(467, 115);
-            this.firstAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.firstAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.firstAnswer.Name = "firstAnswer";
             this.firstAnswer.Size = new System.Drawing.Size(180, 20);
             this.firstAnswer.TabIndex = 13;
@@ -213,7 +214,7 @@
             // userAnswer3
             // 
             this.userAnswer3.Location = new System.Drawing.Point(125, 160);
-            this.userAnswer3.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer3.Name = "userAnswer3";
             this.userAnswer3.Size = new System.Drawing.Size(180, 20);
             this.userAnswer3.TabIndex = 14;
@@ -222,7 +223,7 @@
             // 
             this.start.Cursor = System.Windows.Forms.Cursors.Hand;
             this.start.Location = new System.Drawing.Point(304, 53);
-            this.start.Margin = new System.Windows.Forms.Padding(2);
+            this.start.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(58, 28);
             this.start.TabIndex = 15;
@@ -234,7 +235,7 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(532, 228);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(61, 30);
             this.button1.TabIndex = 16;
@@ -245,7 +246,7 @@
             // thirdValue
             // 
             this.thirdValue.Location = new System.Drawing.Point(20, 160);
-            this.thirdValue.Margin = new System.Windows.Forms.Padding(2);
+            this.thirdValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.thirdValue.Name = "thirdValue";
             this.thirdValue.Size = new System.Drawing.Size(60, 20);
             this.thirdValue.TabIndex = 18;
@@ -253,7 +254,7 @@
             // userAnswer1
             // 
             this.userAnswer1.Location = new System.Drawing.Point(125, 115);
-            this.userAnswer1.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer1.Name = "userAnswer1";
             this.userAnswer1.Size = new System.Drawing.Size(180, 20);
             this.userAnswer1.TabIndex = 19;
@@ -261,7 +262,7 @@
             // userAnswer6
             // 
             this.userAnswer6.Location = new System.Drawing.Point(125, 229);
-            this.userAnswer6.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer6.Name = "userAnswer6";
             this.userAnswer6.Size = new System.Drawing.Size(180, 20);
             this.userAnswer6.TabIndex = 20;
@@ -269,7 +270,7 @@
             // userAnswer5
             // 
             this.userAnswer5.Location = new System.Drawing.Point(125, 206);
-            this.userAnswer5.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer5.Name = "userAnswer5";
             this.userAnswer5.Size = new System.Drawing.Size(180, 20);
             this.userAnswer5.TabIndex = 21;
@@ -277,7 +278,7 @@
             // userAnswer4
             // 
             this.userAnswer4.Location = new System.Drawing.Point(125, 183);
-            this.userAnswer4.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer4.Name = "userAnswer4";
             this.userAnswer4.Size = new System.Drawing.Size(180, 20);
             this.userAnswer4.TabIndex = 22;
@@ -285,7 +286,7 @@
             // userAnswer7
             // 
             this.userAnswer7.Location = new System.Drawing.Point(126, 251);
-            this.userAnswer7.Margin = new System.Windows.Forms.Padding(2);
+            this.userAnswer7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.userAnswer7.Name = "userAnswer7";
             this.userAnswer7.Size = new System.Drawing.Size(180, 20);
             this.userAnswer7.TabIndex = 23;
@@ -539,7 +540,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(342, 115);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(45, 20);
             this.textBox5.TabIndex = 48;
@@ -547,7 +548,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(342, 137);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(45, 20);
             this.textBox6.TabIndex = 47;
@@ -555,7 +556,7 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(342, 160);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(45, 20);
             this.textBox7.TabIndex = 46;
@@ -563,7 +564,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(342, 183);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(45, 20);
             this.textBox8.TabIndex = 45;
@@ -595,7 +596,7 @@
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(591, 7);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 25);
             this.button2.TabIndex = 56;
@@ -681,7 +682,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(358, 375);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(45, 20);
             this.textBox1.TabIndex = 95;
@@ -689,7 +690,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(358, 398);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(45, 20);
             this.textBox2.TabIndex = 94;
@@ -697,7 +698,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(358, 421);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(45, 20);
             this.textBox3.TabIndex = 93;
@@ -705,7 +706,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(358, 444);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(45, 20);
             this.textBox4.TabIndex = 92;
@@ -827,7 +828,7 @@
             // altUserAnswer3
             // 
             this.altUserAnswer3.Location = new System.Drawing.Point(254, 420);
-            this.altUserAnswer3.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer3.Name = "altUserAnswer3";
             this.altUserAnswer3.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer3.TabIndex = 68;
@@ -836,7 +837,7 @@
             // 
             this.altCheck_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.altCheck_Button.Location = new System.Drawing.Point(501, 489);
-            this.altCheck_Button.Margin = new System.Windows.Forms.Padding(2);
+            this.altCheck_Button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altCheck_Button.Name = "altCheck_Button";
             this.altCheck_Button.Size = new System.Drawing.Size(56, 32);
             this.altCheck_Button.TabIndex = 67;
@@ -848,7 +849,7 @@
             // 
             this.alternate_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.alternate_button.Location = new System.Drawing.Point(305, 318);
-            this.alternate_button.Margin = new System.Windows.Forms.Padding(2);
+            this.alternate_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.alternate_button.Name = "alternate_button";
             this.alternate_button.Size = new System.Drawing.Size(67, 27);
             this.alternate_button.TabIndex = 66;
@@ -859,7 +860,7 @@
             // altFirstAnswer
             // 
             this.altFirstAnswer.Location = new System.Drawing.Point(501, 378);
-            this.altFirstAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.altFirstAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altFirstAnswer.Name = "altFirstAnswer";
             this.altFirstAnswer.Size = new System.Drawing.Size(61, 20);
             this.altFirstAnswer.TabIndex = 64;
@@ -867,7 +868,7 @@
             // altSecondAnswer
             // 
             this.altSecondAnswer.Location = new System.Drawing.Point(501, 401);
-            this.altSecondAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.altSecondAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altSecondAnswer.Name = "altSecondAnswer";
             this.altSecondAnswer.Size = new System.Drawing.Size(61, 20);
             this.altSecondAnswer.TabIndex = 63;
@@ -875,7 +876,7 @@
             // altThirdAnswer
             // 
             this.altThirdAnswer.Location = new System.Drawing.Point(501, 424);
-            this.altThirdAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.altThirdAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altThirdAnswer.Name = "altThirdAnswer";
             this.altThirdAnswer.Size = new System.Drawing.Size(61, 20);
             this.altThirdAnswer.TabIndex = 62;
@@ -883,7 +884,7 @@
             // altFourthAnswer
             // 
             this.altFourthAnswer.Location = new System.Drawing.Point(501, 447);
-            this.altFourthAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.altFourthAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altFourthAnswer.Name = "altFourthAnswer";
             this.altFourthAnswer.Size = new System.Drawing.Size(61, 20);
             this.altFourthAnswer.TabIndex = 61;
@@ -891,7 +892,7 @@
             // altUserAnswer2
             // 
             this.altUserAnswer2.Location = new System.Drawing.Point(254, 398);
-            this.altUserAnswer2.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer2.Name = "altUserAnswer2";
             this.altUserAnswer2.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer2.TabIndex = 60;
@@ -899,7 +900,7 @@
             // altUserAnswer4
             // 
             this.altUserAnswer4.Location = new System.Drawing.Point(254, 443);
-            this.altUserAnswer4.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer4.Name = "altUserAnswer4";
             this.altUserAnswer4.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer4.TabIndex = 59;
@@ -907,7 +908,7 @@
             // altUserAnswer
             // 
             this.altUserAnswer.Location = new System.Drawing.Point(254, 376);
-            this.altUserAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer.Name = "altUserAnswer";
             this.altUserAnswer.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer.TabIndex = 57;
@@ -955,7 +956,7 @@
             // altFourthValue
             // 
             this.altFourthValue.Location = new System.Drawing.Point(35, 445);
-            this.altFourthValue.Margin = new System.Windows.Forms.Padding(2);
+            this.altFourthValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altFourthValue.Name = "altFourthValue";
             this.altFourthValue.Size = new System.Drawing.Size(180, 20);
             this.altFourthValue.TabIndex = 122;
@@ -963,7 +964,7 @@
             // altFirrstValue
             // 
             this.altFirrstValue.Location = new System.Drawing.Point(35, 376);
-            this.altFirrstValue.Margin = new System.Windows.Forms.Padding(2);
+            this.altFirrstValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altFirrstValue.Name = "altFirrstValue";
             this.altFirrstValue.Size = new System.Drawing.Size(180, 20);
             this.altFirrstValue.TabIndex = 119;
@@ -971,7 +972,7 @@
             // altThirdValue
             // 
             this.altThirdValue.Location = new System.Drawing.Point(35, 422);
-            this.altThirdValue.Margin = new System.Windows.Forms.Padding(2);
+            this.altThirdValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altThirdValue.Name = "altThirdValue";
             this.altThirdValue.Size = new System.Drawing.Size(180, 20);
             this.altThirdValue.TabIndex = 118;
@@ -979,7 +980,7 @@
             // altSecondValue
             // 
             this.altSecondValue.Location = new System.Drawing.Point(35, 399);
-            this.altSecondValue.Margin = new System.Windows.Forms.Padding(2);
+            this.altSecondValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altSecondValue.Name = "altSecondValue";
             this.altSecondValue.Size = new System.Drawing.Size(180, 20);
             this.altSecondValue.TabIndex = 117;
@@ -1017,7 +1018,7 @@
             // altUserAnswer7
             // 
             this.altUserAnswer7.Location = new System.Drawing.Point(254, 513);
-            this.altUserAnswer7.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer7.Name = "altUserAnswer7";
             this.altUserAnswer7.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer7.TabIndex = 133;
@@ -1025,7 +1026,7 @@
             // altUserAnswer5
             // 
             this.altUserAnswer5.Location = new System.Drawing.Point(254, 466);
-            this.altUserAnswer5.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer5.Name = "altUserAnswer5";
             this.altUserAnswer5.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer5.TabIndex = 132;
@@ -1033,7 +1034,7 @@
             // altUserAnswer6
             // 
             this.altUserAnswer6.Location = new System.Drawing.Point(254, 489);
-            this.altUserAnswer6.Margin = new System.Windows.Forms.Padding(2);
+            this.altUserAnswer6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.altUserAnswer6.Name = "altUserAnswer6";
             this.altUserAnswer6.Size = new System.Drawing.Size(60, 20);
             this.altUserAnswer6.TabIndex = 131;
@@ -1120,12 +1121,25 @@
             this.label53.TabIndex = 140;
             this.label53.Text = "*Click Alternate to Begin a New Test";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.ForeColor = System.Drawing.Color.Red;
+            this.button3.Location = new System.Drawing.Point(216, 53);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(83, 28);
+            this.button3.TabIndex = 141;
+            this.button3.Text = "Instructions";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(655, 553);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label53);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.iconButton);
@@ -1225,7 +1239,7 @@
             this.Controls.Add(this.userAnswer2);
             this.Controls.Add(this.firstValue);
             this.Controls.Add(this.button_home);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3";
             this.Text = "Identifying Areas";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -1336,5 +1350,6 @@
         private System.Windows.Forms.Button iconButton;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Button button3;
     }
 }

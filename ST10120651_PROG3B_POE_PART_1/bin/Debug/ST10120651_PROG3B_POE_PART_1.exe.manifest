@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ST10120651_PROG3B_POE_PART_1.exe" size="743448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ST10120651_PROG3B_POE_PART_1.exe" size="781848">
       <assemblyIdentity name="ST10120651_PROG3B_POE_PART_1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Al1/fnfZYT0PaDA8ZuiXPVFSUHznHT2ZZk78esBgjdY=</dsig:DigestValue>
+        <dsig:DigestValue>fyVrYoF+6sqLqomSOJxirYTb5+JXn94JSdgtshqIcR4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

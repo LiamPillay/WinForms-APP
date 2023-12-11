@@ -48,5 +48,17 @@ namespace ST10120651_PROG3B_POE_PART_1
             form3.Show();
             this.Hide();
         }
+
+        private void CallButton_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

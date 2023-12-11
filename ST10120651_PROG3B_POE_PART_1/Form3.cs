@@ -12,6 +12,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 {
     public partial class Form3 : Form
     {
+        // declaration of the dictionaries and int i for image icons
         Dictionary<string, string> Library;
         Dictionary<string, string> AlternateLibrary;
         int i = 0;
@@ -22,6 +23,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            // Add values to the dictionaries
             Library = new Dictionary<string, string>();
             Library.Add("000-099", "General Works");
             Library.Add("100-199", "Philosophy and Psychology");
@@ -53,6 +55,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void button_home_Click(object sender, EventArgs e)
         {
+            //Home function that takes the user back to the Home Page
             Form1 home = new Form1();
             home.Show();
             this.Hide();
@@ -65,6 +68,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void start_Click(object sender, EventArgs e)
         {
+            // enter random values into textboxes
             Random rnd = new Random();
             string[] callNumbers = { "600-699", "700-799" };
             int index = rnd.Next(callNumbers.Length);
@@ -81,6 +85,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
             string NameOnUi = firstValue.Text;
 
+            //if statements that fill the corresponding values according to the Key Values in the dictionary into the possible answers section
             if (Library.ContainsKey(NameOnUi))
             {
                 userAnswer3.Text = Library[NameOnUi];
@@ -104,7 +109,7 @@ namespace ST10120651_PROG3B_POE_PART_1
                 userAnswer7.Text = Library[NameOnUi4];
             }
 
-
+            // random wrong answers
             string[] descriptions = { "General Works", "Philosophy", "History, Biography and Geography" };
             int description_index = rnd.Next(descriptions.Length);
             string[] descriptions2 = { "Social Sciences", "Language", "Natural Sciences and Mathematics" };
@@ -120,6 +125,8 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //if statements that fill the corresponding values according to the Key Values in the dictionary
+            // loads the correct answers into the check answers section
             string NameOnUi = firstValue.Text;
 
             if (Library.ContainsKey(NameOnUi))
@@ -148,6 +155,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // closes the application
             Application.Exit();
         }
 
@@ -163,6 +171,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void alternate_button_Click(object sender, EventArgs e)
         {
+            // enter random values into textboxes
             Random rnd = new Random();
             string[] altcallNumbers = { "Technology", "The Arts" };
             int index = rnd.Next(altcallNumbers.Length);
@@ -177,6 +186,7 @@ namespace ST10120651_PROG3B_POE_PART_1
             altThirdValue.Text = altcallNumbers3[index3];
             altFourthValue.Text = altcallNumbers4[index4];
 
+            //if statements that fill the corresponding values according to the Key Values in the dictionary into the possible answers section
             string NameOnUi = altFirrstValue.Text;
 
             if (AlternateLibrary.ContainsKey(NameOnUi))
@@ -202,7 +212,7 @@ namespace ST10120651_PROG3B_POE_PART_1
                 altUserAnswer7.Text = AlternateLibrary[NameOnUi4];
             }
 
-
+            // enter random wrong values into options section
             string[] altDescriptions = { "000-099", "200-299", "900-999" };
             int altDescription_index = rnd.Next(altDescriptions.Length);
             string[] altDescriptions2 = { "300-399", "400-499", "500-599" };
@@ -217,6 +227,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void altCheck_Button_Click(object sender, EventArgs e)
         {
+            // fill the check answers section with the corresponding values according to the generated Key Values from the dictionary
             string NameOnUi = altFirrstValue.Text;
 
             if (AlternateLibrary.ContainsKey(NameOnUi))
@@ -245,6 +256,7 @@ namespace ST10120651_PROG3B_POE_PART_1
 
         private void iconButton_Click(object sender, EventArgs e)
         {
+            // icon image generator
             if (i != 32)
             {
                 i++;                
@@ -265,6 +277,12 @@ namespace ST10120651_PROG3B_POE_PART_1
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // instructions on how to use the feature
+            MessageBox.Show("Click Start or Alternate to begin. Four random call numbers/descriptions will load and seven possible answers. Enter the letter next to the option in the blocks under Your Answer according to the corresponding number. Then click Check to see if you got the right answer. GOOD LUCK!");
         }
     }
 }
